@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+ client:
+  image: front-end:0.0.1
+  container_name: front-end:0.0.1
+  build: .
+  ports: 
+   -"3000:3000"
